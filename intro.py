@@ -1,2 +1,6 @@
-print("The largest building in the world is a well know skyscraper in the city of Dubai. You can see the sun set twice in only a few minuets by watching at the bottom of the building then at the top. Infact the building is so large that it could theoreticaly be used as a toothpick by your mom.")
-print('hello')
+character = {
+      "name": "dragon",
+      "age": 300,
+      "isMale": True,
+      "fav_food_list": ["sheep", "cows", "chickens", "humans", "ice cream"]
+}
