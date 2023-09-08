@@ -1,4 +1,4 @@
-my_name = "Mr Hunt"
+my_name = "Oliver Skeem"
 
 def give_my_name():
     a_name = "William"
@@ -43,3 +43,25 @@ message2 = 4 < 2 or 33 < 43
 x = true
 
 print(not x)
+
+#PEMMDAS    
+
+
+Y = 10
+X = Y + 10
+
+Z = 7 // 2
+t = 7 / 2
+print(t)
+
+def my_function():
+    print("I am so great!")
+
+    my_function()
+
+def add(num1, num2):
+        print(num1 + num2)
+
+        my_name = "tacocat"
+        words = my_name.split("o")
+        print(words)
