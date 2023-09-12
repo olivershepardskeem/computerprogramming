@@ -65,3 +65,10 @@ def add(num1, num2):
         my_name = "tacocat"
         words = my_name.split("o")
         print(words)
+
+        def subtract(num1, num2):
+             return num1 - num2
+        
+        difference = print(subtract(4,2))
+
+print(difference)
