@@ -25,3 +25,9 @@ i = 1
 while i < 6:
     print("I am still going")
     i += 1
+
+for i in range(50):
+    if i >24:
+        break
+    else:
+        print(i)

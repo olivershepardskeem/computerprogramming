@@ -15,7 +15,7 @@ def give_my_name():
     my_float = 3.0
 is_my_boolean = False
 
-    print(my_integer + my_float)
+print(my_integer + my_float)
 
 my_decleration = ""
 my_initialization = "Hello world"
