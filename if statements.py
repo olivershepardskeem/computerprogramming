@@ -44,9 +44,9 @@
 # elif agethree < ageone and agethree < agetwo:
 #     print(agethree)
 
-classheld = int(input("how many classes have been held?"))
-classattend = int(input("how many classes have been attended?"))
+# classheld = int(input("how many classes have been held?"))
+# classattend = int(input("how many classes have been attended?"))
 
-if classattend / classheld >= 0.75:
-    print("you can sit in the exam")
-else: print("you cannot sit in the exam")
+# if classattend / classheld >= 0.75:
+#     print("you can sit in the exam")
+# else: print("you cannot sit in the exam")
