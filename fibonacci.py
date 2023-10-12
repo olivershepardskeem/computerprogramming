@@ -1,11 +1,14 @@
-# how_deep = int(input("how deep into the fibonacci would you like to go? "))
+how_deep = int(input("how deep into the fibonacci would you like to go? "))
 
-# def fibonacci(num):
-#     for i in range(num):
-#         x = 1
-#         y = x
-#         z = x + y
-#         x = z
-#         print(x)
+x = 0
+y = 1
+z = y
+count = 1
 
-# fibonacci(how_deep)
+while count <= how_deep:
+    print(f"{z} ")
+    count += 1
+x, y = y, z
+x = y
+y = z
+z = x + y
