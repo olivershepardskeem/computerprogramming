@@ -9,6 +9,4 @@ while count <= how_deep:
     print(f"{z} ")
     count += 1
 x, y = y, z
-x = y
-y = z
 z = x + y
