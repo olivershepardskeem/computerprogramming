@@ -8,37 +8,37 @@ print("Please answer the following questions to help us understand your qualific
 print("\n")
 
 while not name:
-    name = input("Q1. What is your full name(it better not be Goofy Goober)? ")
+    name = input("Q1. What is your full name(it better not be Goofy Goober)?")
     if name == "Goofy Goober":
-        break
+        exit("no Goofy Goobers")
 
 while not programming_interest:
-    programming_interest = input("Q2. What type of programming are you interested in(goofy goobing isnt a programming interest)? ")
+    programming_interest = input("Q2. What type of programming are you interested in(goofy goobing isnt a programming interest)?")
     if programming_interest == "goofy goobing":
         exit("no goofy goobing")
    
 while True:
     try:
-        years_of_experience = int(input("Q3. How many years of programming experience do you have? "))
+        years_of_experience = int(input("Q3. How many years of programming experience do you have?"))
         if years_of_experience >= 0:
             break
         else:
-            print("Please enter a real number of years you goofy goober.")
+            exit("I think you're a goofy goober.")
     except ValueError:
         print("Please enter a real number you goofy goober.")
 
-desired_salary = input("Q4. What is your desired salary? ")
+desired_salary = input("Q4. What is your desired salary?")
 
-education = input("Q5. What is your highest level of education? ")
+education = input("Q5. What is your highest level of education?")
 
-preferred_technologies = input("Q6. Do you have any preferred programming languages? ")
+preferred_technologies = input("Q6. Do you have any preferred programming languages?")
 
-strengths = input("Q7. What do you consider your strengths as a programmer? ")
-weaknesses = input("Q8. What do you consider your weaknesses as a programmer? ")
+strengths = input("Q7. What do you consider your strengths as a programmer?")
+weaknesses = input("Q8. What do you consider your weaknesses as a programmer?")
 
-recent_projects = input("Q9. Can you briefly describe your recent programming projects or work experience? ")
+recent_projects = input("Q9. Can you briefly describe your recent programming projects or work experience?")
 
-career_goals = input("Q10. What are your long-term career goals in the field of programming? ")
+career_goals = input("Q10. What are your long-term career goals in the field of programming?")
 
 print("\n")
 print(f"Thank you, {name}, for giving us all your personal information.")
